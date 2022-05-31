@@ -269,7 +269,7 @@ ul {
 }
 .modal {
   position: absolute;
-  max-width: 528px;
+  width: 528px;
   background-color: #fff;
   top: 50%;
   left: 50%;
@@ -333,7 +333,10 @@ ul {
   margin-bottom: 10px;
   flex-direction: column;
 }
-
+.user-checkbox {
+  display: flex;
+  margin-left: 12px;
+}
 .modal-label:last-of-type {
   margin-bottom: 20px;
 }
@@ -674,9 +677,6 @@ input {
   display: flex;
   align-items: baseline;
 }
-.footer-newsletter-email {
-  margin-right: 12px;
-}
 .newsletter-email {
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -686,6 +686,8 @@ input {
   padding-bottom: 15px;
   padding-left: 16px;
   width: 358px;
+  margin-right: 12px;
+  color: var(--primary-white-color);
 }
 .newsletter-email::placeholder {
   font-size: 16px;
